@@ -1,0 +1,151 @@
+<!doctype html>
+<html> 
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Spam Message Filtering System!!</title>
+    <style>
+    .bg{
+        background-image:url("https://tse3.explicit.bing.net/th?id=OIP.MSxTeufJWLTfwcv6oo1EBQHaFq&pid=Api&P=0");
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
+      </style>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.0/css/bootstrap.min.css>    
+    <body data-spy=scroll data-target=.navigation_area> 
+      <div class="bg">
+        <div class="trans">
+      <div id=preloader> 
+        <div class=loader_line></div> 
+          <div class="navbar">
+            <image src="logo.png" width="180px" height="60px"></image>
+            <a href="#">Home</a>
+            <a href="#" >About</a>
+
+            <a href="#">Contact</a>
+            </div>
+          
+          </div>
+        </div> 
+        <header id=header class=site_header> 
+          <div class=site_navigation> 
+            <div class=container-fluid>  </div>
+          </div> 
+        </header>
+         <div id=sticky_header></div> 
+         <div class="site_wrapper bg_white">
+           <section id=home class="section_scroll welcome_area" data-scroll-index=0> <div class="bg_overlay bg_image page_cover" style="background-image:url('/static/images/bg/2.webp')"></div> 
+            <div id=particles-js></div>
+             <div class=home_wrapper_info>
+               <div class=container> 
+            <div class="row justify-content-center">
+               <div class=col-lg-12>
+                 <div class="home_text_block text-center">  
+                  <div class=progress_bar>
+                     <span data-percent=70></span> 
+                  </div>
+                 </div> 
+                </div> 
+              </div> 
+            </div> 
+          </div> 
+         </section>
+         <section id=blog class="section_scroll blog_area ptb-110 grad1" data-scroll-index=3> 
+                <div class=container>
+                   <div class=row> 
+                    <div class=col-lg-12> 
+                      <div class="section_title text-center">
+                         <br><br><h3><span>Spam Message Filtering System</span></h3><br>
+                          <h1 class=title>Spam<span> Detector </span></h1> 
+                        </div> 
+                      </div>
+                     </div> 
+                     <br><br>
+                     <title>Spam Message Detector</title>
+                      <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
+                    <a class=navbar-brand>Spam Detector For Your Message</a> 
+                    <button class=navbar-toggler type=button data-toggle=collapse data-target=#navbarSupportedContent aria-controls=navbarSupportedContent aria-expanded=false aria-label="Toggle navigation"> 
+                      <span class=navbar-toggler-icon></span>
+                     </button> 
+                    <div class="collapse navbar-collapse" id=navbarSupportedContent>
+                      <ul class="navbar-nav mr-auto"> 
+                        <li class="nav-item active"><a class=nav-link href=#>Home <span class=sr-only>(current)</span></a> </li>
+                        <li class=nav-item> <a class=nav-link href=#>Register</a> </li>
+                        <li class=nav-item> <a class="nav-link " href="https://messages.google.com/web/authentication" target="_blank" tabindex=-1 aria-disabled=true>Login</a> </li>
+                        <li class=nav-item> <a class="nav-link " href=# tabindex=-1 aria-disabled=true>FAQ</a> </li> 
+                      </ul> 
+                      <form class="form-inline my-2 my-lg-0"> 
+                        <input class="form-control mr-sm-2" type=search placeholder=Search aria-label=Search> 
+                        <button class="btn btn-outline-success my-2 my-sm-0" type=submit>Search</button> 
+                      </form> 
+                    </div>
+                   </nav>
+                          <h1 class="text-center mt-5" style="color:rgb(160, 235, 49)"><b>Spam Detection in messages</b></h1> 
+                          <br>
+                          <center><IMG SRC="spam.gif" width="200px" height="200px"></center>
+                          <form class action="{{url_for('predict')}}" method=POST> 
+                            <div class="form-group col-md-10 ml-5">
+                               <h3><label class="mt-5 " for=comment><b>Enter the content of your Message</b></label></h3>
+                                <textarea class=form-control name=comment id=comment rows=5 cols=50 placeholder="Copy your content from anywhere then press Ctrl+V to paste the content here or type your text here"></textarea> 
+                              </div>
+                              <br>
+                              <br>
+                             <div align=center>
+                               <button class="btn btn-sumbit btn-primary" type=submit formaction="http://localhost:8503">Predict
+                               </button><br><br>
+                              </div> 
+                              <br>
+                              <br>
+                            </form>
+                          </section>
+                  </div> 
+                  </div>
+                  </div>
+                    <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify"> Our organization is dedicated to keep the internet safe from malicious and deceptive messages. We strive to make sure that users are not exposed to unwanted content, and that their information is protected from being stolen or used against them. Our team of experts leverage the latest technology to identify and block suspicious messages, ensuring that users are protected from fraud, identity theft, and other cyber-related crimes. We are constantly monitoring the latest trends in spam messages to ensure that we are providing the best protection available. By working with our partners, we are able to offer a comprehensive solution to spam message detection. With the help of our team, you can rest assured that your online data is safe and secure.
+</p></div>
+          <div class="col-xs-6 col-md-3">
+            <h6>Contact</h6>
+            <ul class="footer-links">
+              <li><b>Email-ID: </b> spamdetector@gmail.com</li><br>
+              <li><b>Phone: </b> 9898989898</li><br>
+              <li><b>Address: </b> Opposite Maddilaplem bus stop, Spam Detector studio</li><br>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="# ">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by 
+         <a href="#">Spam Detector studio</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>
+</body>   
+</html>
